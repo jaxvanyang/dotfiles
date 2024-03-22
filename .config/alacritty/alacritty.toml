@@ -1,0 +1,57 @@
+[[colors.indexed_colors]]
+color = "0xff9e64"
+index = 16
+
+[[colors.indexed_colors]]
+color = "0xdb4b4b"
+index = 17
+
+[colors.bright]
+black = "0x414868"
+blue = "0x388eff"
+cyan = "0x56c1eb"
+green = "0x74ffd8"
+magenta = "0xae81ff"
+red = "0xff54b0"
+white = "0xc0caf5"
+yellow = "0xfcf5ae"
+
+[colors.normal]
+black = "0x15161e"
+blue = "0x7aa2f7"
+cyan = "0x7dcfff"
+green = "0x9ece6a"
+magenta = "0xbb9af7"
+red = "0xf7768e"
+white = "0xa9b1d6"
+yellow = "0xe0af68"
+
+[colors.primary]
+background = "0x1a1b26"
+foreground = "0xc0caf5"
+
+[cursor.style]
+blinking = "On"
+shape = "Beam"
+
+[font]
+size = 16
+
+[font.normal]
+family = "ComicShanns Nerd Font"
+
+[[keyboard.bindings]]
+action = "CreateNewWindow"
+key = "N"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "ToggleFullscreen"
+key = "F11"
+
+[window]
+opacity = 0.9
+
+[window.dimensions]
+columns = 120
+lines = 45

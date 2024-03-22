@@ -1,0 +1,11 @@
+if status is-interactive
+	# Git abbrs
+	abbr ga git add
+	abbr gcmsg git commit -m
+	abbr gfa git fetch --all --prune --jobs=5
+	abbr gl git pull
+	abbr gp git push
+	abbr grst git restore --staged
+	abbr gst git status
+	abbr gsc git switch -c
+end

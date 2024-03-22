@@ -1,0 +1,28 @@
+backup_dir: ~/repos/jax/dotfiles
+apps:
+  dotbackup:
+    files: [~/.config/dotbackup/dotbackup.yml]
+  alacritty:
+    files: [~/.config/alacritty/alacritty.toml]
+  fish:
+    files: [~/.config/fish]
+    ignore: [fish_variables]
+  nvim:
+    files: [~/.config/nvim]
+    ignore: [lazy-lock.json]
+  tmux:
+    files: [~/.config/tmux/tmux.conf]
+  vim:
+    files: [~/.vimrc]
+  git:
+    pre_setup:
+      - git config --global user.name "Jax Young"
+      - git config --global user.email "jaxvanyang@gmail.com"
+      - git config --global pull.rebase true
+      - git config --global core.editor nvim
+      - git config --global advice.skippedCherryPicks false
+      - git config --global alias.graph "log --all --oneline --decorate --graph"
+      # for git status Chinese output
+      - git config --global core.quotepath false
+  tealdeer:
+    files: [~/.config/tealdeer/config.toml]
