@@ -1,5 +1,8 @@
 return {
 	"numToStr/Comment.nvim",
-	config = true,
 	lazy = false,
+	opts = {
+		toggler = { line = " /", block = " b" },
+		mappings = { extra = false },
+	},
 }
