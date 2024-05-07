@@ -49,5 +49,10 @@ return {
 			":Telescope help_tags<CR>",
 			desc = "Telescope: find help tags",
 		},
+		{
+			"<Leader>fk",
+			":Telescope keymaps<CR>",
+			desc = "Telescope: find keymaps",
+		},
 	},
 }
