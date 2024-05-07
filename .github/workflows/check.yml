@@ -1,0 +1,22 @@
+name: Check configuration files
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  lua:
+    name: Check Lua files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check style
+        uses: JohnnyMorganz/stylua-action@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          version: latest
+          args: --check .config .luacheckrc
+      - name: Lint
+        uses: lunarmodules/luacheck@v1
+        with:
+          args: .config .luacheckrc
