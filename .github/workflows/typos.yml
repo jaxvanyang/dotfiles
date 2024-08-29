@@ -1,0 +1,17 @@
+name: Typos
+
+on: [push]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Spell check with typos
+        uses: crate-ci/typos@v1.24.1
+        with:
+          files: >-
+            .
+            .config
+            .luacheckrc
+            .vimrc
