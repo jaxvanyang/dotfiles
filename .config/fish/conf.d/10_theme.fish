@@ -1,4 +1,4 @@
-if status --is-interactive
+if status is-interactive
 	# TokyoNight Color Palette
 	set -l foreground c0caf5
 	set -l selection 2e3c64
