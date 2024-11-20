@@ -14,6 +14,9 @@ if status is-interactive
 	# Python
 	abbr pdb python3 -m pdb
 	abbr py python3
+	if ! command -v python &> /dev/null
+		abbr python python3
+	end
 
 	# Neovim
 	abbr v nvim
