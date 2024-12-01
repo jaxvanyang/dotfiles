@@ -22,8 +22,9 @@ apps:
       - git config --global core.editor nvim
       - git config --global advice.skippedCherryPicks false
       - git config --global alias.graph "log --all --oneline --decorate --graph"
-      # for git status Chinese output
-      - git config --global core.quotepath false
+      - git config --global core.quotepath false  # for Chinese output
+      - git config --global core.excludesFile ~/.config/git/.gitignore
+    files: [~/.config/git]
   tealdeer:
     files: [~/.config/tealdeer/config.toml]
   mangohud:
