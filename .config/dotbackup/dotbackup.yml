@@ -29,3 +29,7 @@ apps:
     files: [~/Library/Application Support/tealdeer/config.toml]
   zed:
     files: [~/.config/zed/settings.json]
+  rustfmt:
+    files: [~/Library/Application Support/rustfmt/rustfmt.toml]
+  cargo:
+    files: [~/.cargo/config.toml]
