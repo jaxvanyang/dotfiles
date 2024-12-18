@@ -17,6 +17,9 @@ if status is-interactive
 	if ! command -v python &> /dev/null
 		abbr python python3
 	end
+	if ! command -v pip &> /dev/null
+		abbr pip pip3
+	end
 
 	# Neovim
 	abbr v nvim
