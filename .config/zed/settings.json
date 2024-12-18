@@ -8,12 +8,14 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
 	"vim_mode": true,
+	"relative_line_numbers": true,
+	"show_whitespaces": "boundary",
 	"ui_font_size": 16,
 	"buffer_font_size": 16,
 	"theme": {
 		"mode": "system",
 		"light": "One Light",
-		"dark": "One Dark"
+		"dark": "Andromeda"
 	},
 	"hard_tabs": true,
 	"tab_size": 2,
@@ -25,9 +27,9 @@
 		"Python": {
 			"hard_tabs": false,
 			"tab_size": 4
+		},
+		"YAML": {
+			"hard_tabs": false
 		}
-	},
-	"terminal": {
-		"font_family": "ComicShanns Nerd Font"
 	}
 }
