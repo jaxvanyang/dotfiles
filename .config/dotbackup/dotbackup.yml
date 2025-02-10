@@ -31,3 +31,5 @@ apps:
     files: [~/.config/MangoHud/MangoHud.conf]
   zed:
     files: [~/.config/zed/settings.json]
+  pacman:
+    files: [~/.config/pacman]
