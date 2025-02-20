@@ -24,6 +24,7 @@ apps:
       - git config --global alias.graph "log --all --oneline --decorate --graph"
       - git config --global core.quotepath false  # for Chinese output
       - git config --global core.excludesFile ~/.config/git/.gitignore
+      - git config --global init.defaultBranch main
     files: [~/.config/git]
   tealdeer:
     files: [~/.config/tealdeer/config.toml]
