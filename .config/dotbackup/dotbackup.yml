@@ -34,3 +34,5 @@ apps:
     files: [~/.config/zed/settings.json]
   pacman:
     files: [~/.config/pacman]
+  rime:
+    files: [~/.local/share/fcitx5/rime/default.custom.yaml]
