@@ -36,3 +36,5 @@ apps:
     files: [~/.config/pacman]
   rime:
     files: [~/.local/share/fcitx5/rime/default.custom.yaml]
+  rustfmt:
+    files: [~/.config/rustfmt/rustfmt.toml]
