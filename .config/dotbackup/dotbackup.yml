@@ -63,3 +63,5 @@ apps:
     files: [~/.local/share/fcitx5/rime/default.custom.yaml]
   rustfmt:
     files: [~/.config/rustfmt/rustfmt.toml]
+  gradle:
+    files: [~/.gradle/init.gradle.kts]
