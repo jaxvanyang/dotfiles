@@ -59,3 +59,5 @@ apps:
     files: [~/.cargo/config.toml]
   cloc:
     files: [~/.config/cloc/options.txt]
+  gradle:
+    files: [~/.gradle/init.gradle.kts]
