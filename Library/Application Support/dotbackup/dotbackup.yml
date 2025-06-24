@@ -57,3 +57,5 @@ apps:
     files: [~/.config/zed/settings.json]
   cargo:
     files: [~/.cargo/config.toml]
+  cloc:
+    files: [~/.config/cloc/options.txt]
