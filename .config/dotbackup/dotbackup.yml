@@ -67,3 +67,5 @@ apps:
     files: [~/.gradle/init.gradle.kts]
   cargo:
     files: [~/.cargo/config.toml]
+  cloc:
+    files: [~/.config/cloc/options.txt]
