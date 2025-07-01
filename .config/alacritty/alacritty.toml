@@ -54,6 +54,7 @@ key = "F11"
 
 [window]
 opacity = 0.9
+decorations = "None"
 
 [window.dimensions]
 columns = 120
