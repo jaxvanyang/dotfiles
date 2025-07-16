@@ -69,3 +69,6 @@ apps:
     files: [~/.cargo/config.toml]
   cloc:
     files: [~/.config/cloc/options.txt]
+  termux:
+    files: [~/.termux]
+    ignore: [shell, font.ttf]
