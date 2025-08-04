@@ -1,7 +1,7 @@
 backup_dir: ~/repos/jax/dotfiles
 apps:
   dotbackup:
-    files: [~/.config/dotbackup/dotbackup.yml]
+    files: [~/Library/Application Support/dotbackup/dotbackup.yml]
   alacritty:
     files: [~/.config/alacritty/alacritty.toml]
   fish:
