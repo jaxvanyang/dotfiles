@@ -57,7 +57,6 @@ key = "F11"
 
 [window]
 opacity = 0.9
-startup_mode = "Maximized"
 
 [window.dimensions]
 columns = 120
