@@ -1,5 +1,5 @@
 [terminal]
-shell = { program = "/opt/local/bin/fish", args = ["--login"] }
+shell = { program = "/opt/homebrew/bin/fish", args = ["--login"] }
 
 [env]
 TERM = "xterm-256color"
