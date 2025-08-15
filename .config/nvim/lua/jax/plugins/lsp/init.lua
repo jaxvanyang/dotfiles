@@ -42,5 +42,15 @@ return {
 			vim.diagnostic.goto_next,
 			desc = "Move to the next diagnostic",
 		},
+		{
+			"<Leader>r",
+			vim.lsp.buf.rename,
+			desc = "LSP rename",
+		},
+		{
+			"<Leader>F",
+			vim.lsp.buf.format,
+			desc = "LSP format",
+		},
 	},
 }
