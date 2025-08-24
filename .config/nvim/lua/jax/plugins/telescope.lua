@@ -54,5 +54,20 @@ return {
 			":Telescope keymaps<CR>",
 			desc = "Telescope: find keymaps",
 		},
+		{
+			"<Leader>fc",
+			":Telescope current_buffer_fuzzy_find<CR>",
+			desc = "Telescope: fuzzy find in current buffer",
+		},
+		{
+			"<Leader>fs",
+			":Telescope lsp_document_symbols<CR>",
+			desc = "Telescope: list document symbols in current buffer",
+		},
+		{
+			"<Leader>fS",
+			":Telescope lsp_workspace_symbols<CR>",
+			desc = "Telescope: list document symbols in current workspace",
+		},
 	},
 }
