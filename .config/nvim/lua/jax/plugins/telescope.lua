@@ -60,12 +60,12 @@ return {
 			desc = "Telescope: fuzzy find in current buffer",
 		},
 		{
-			"<Leader>gs",
+			"gs",
 			":Telescope lsp_document_symbols<CR>",
 			desc = "Telescope: list document symbols in current buffer",
 		},
 		{
-			"<Leader>gS",
+			"gS",
 			":Telescope lsp_workspace_symbols<CR>",
 			desc = "Telescope: list document symbols in current workspace",
 		},
