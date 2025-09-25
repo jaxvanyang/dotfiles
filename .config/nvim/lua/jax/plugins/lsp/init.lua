@@ -4,7 +4,6 @@ return {
 		"hrsh7th/cmp-nvim-lsp",
 	},
 	config = function(_, _)
-		local lspconfig = require("lspconfig")
 		local capabilities = require("cmp_nvim_lsp").default_capabilities()
 		local servers = {
 			"bashls",
@@ -20,11 +19,10 @@ return {
 			"yamlls",
 		}
 
-		for _, lsp in ipairs(servers) do
-			lspconfig[lsp].setup({
-				capabilities = capabilities,
-			})
-		end
+		vim.lsp.config('*', {
+			capabilities = capabilities,
+		})
+		vim.lsp.enable(servers)
 	end,
 	keys = {
 		{
