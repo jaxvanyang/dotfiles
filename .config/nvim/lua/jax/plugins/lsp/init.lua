@@ -19,7 +19,7 @@ return {
 			"yamlls",
 		}
 
-		vim.lsp.config('*', {
+		vim.lsp.config("*", {
 			capabilities = capabilities,
 		})
 		vim.lsp.enable(servers)
