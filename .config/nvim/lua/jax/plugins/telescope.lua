@@ -1,6 +1,6 @@
 return {
 	"nvim-telescope/telescope.nvim",
-	branch = "0.1.x",
+	branch = "master",
 	dependencies = {
 		"nvim-lua/plenary.nvim",
 		"nvim-tree/nvim-web-devicons",
@@ -53,6 +53,21 @@ return {
 			"<Leader>fk",
 			":Telescope keymaps<CR>",
 			desc = "Telescope: find keymaps",
+		},
+		{
+			"<Leader>fc",
+			":Telescope current_buffer_fuzzy_find<CR>",
+			desc = "Telescope: fuzzy find in current buffer",
+		},
+		{
+			"gs",
+			":Telescope lsp_document_symbols<CR>",
+			desc = "Telescope: list document symbols in current buffer",
+		},
+		{
+			"gS",
+			":Telescope lsp_workspace_symbols<CR>",
+			desc = "Telescope: list document symbols in current workspace",
 		},
 	},
 }

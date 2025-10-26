@@ -1,6 +1,10 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
+-- nvim-tree recommended
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 local opt = vim.opt
 
 -- indentation

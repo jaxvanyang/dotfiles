@@ -3,7 +3,11 @@ return {
 	dependencies = {
 		"nvim-tree/nvim-web-devicons",
 	},
-	config = true,
+	opts = {
+		git = {
+			timeout = 1000,
+		},
+	},
 	keys = {
 		{
 			"<Leader>e",
