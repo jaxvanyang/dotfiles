@@ -1,6 +1,7 @@
 return {
 	"nvim-treesitter/nvim-treesitter",
-	main = "nvim-treesitter.configs",
+	branch = "main",
+	-- main = "nvim-treesitter.configs",
 	opts = {
 		auto_install = true,
 		highlight = {
