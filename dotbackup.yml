@@ -61,9 +61,9 @@ apps:
   zed:
     files: [~/.config/zed/settings.json]
   pacman:
-    files: [~/.config/pacman]
+    files_linux: [~/.config/pacman]
   rime:
-    files: [~/.local/share/fcitx5/rime/default.custom.yaml]
+    files_linux: [~/.local/share/fcitx5/rime/default.custom.yaml]
   rustfmt:
     files: [~/.config/rustfmt/rustfmt.toml]
   gradle:
@@ -73,5 +73,5 @@ apps:
   cloc:
     files: [~/.config/cloc/options.txt]
   termux:
-    files: [~/.termux]
+    files_linux: [~/.termux]
     ignore: [shell, font.ttf]
