@@ -2,7 +2,10 @@ return {
 	"hrsh7th/nvim-cmp",
 	lazy = false,
 	dependencies = {
-		"L3MON4D3/LuaSnip",
+		{
+			"L3MON4D3/LuaSnip",
+			build = "make install_jsregexp",
+		},
 		"neovim/nvim-lspconfig",
 		-- completion sources
 		"saadparwaiz1/cmp_luasnip",
