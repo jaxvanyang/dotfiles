@@ -22,6 +22,7 @@ apps:
   mangohud:
     files: [~/.config/MangoHud/MangoHud.conf]
   zed:
+    backup_dir_macos: ~/repos/jax/dotfiles/macos
     files: [~/.config/zed/settings.json]
   pacman:
     files_linux: [~/.config/pacman]
