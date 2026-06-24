@@ -1,5 +1,11 @@
 # dotfiles
 
-[![dotbackup-managed](https://img.shields.io/badge/dotbackup-managed-blue)](https://github.com/jaxvanyang/dotbackup.rs)
+[![dotbackup-managed](https://img.shields.io/badge/dotbackup-managed-blue)][dotbackup]
 
-Self-use dotfiles, use [dotbackup](https://github.com/jaxvanyang/dotbackup.rs) for backup.
+My dotfiles, using [dotbackup][dotbackup] for backup.
+
+With some code formatting configurations:
+
+- [Rust](./rustfmt.toml)
+
+[dotbackup]: https://github.com/jaxvanyang/dotbackup.rs

@@ -1,0 +1,3 @@
+hard_tabs = true
+short_array_element_width_threshold = 20
+use_small_heuristics = "Max"

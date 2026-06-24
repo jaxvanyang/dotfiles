@@ -16,6 +16,28 @@ apps:
     files: [~/.config/tmux/tmux.conf]
   vim:
     files: [~/.vimrc]
+  tealdeer:
+    files: [~/.config/tealdeer/config.toml]
+    files_macos: [~/Library/Application Support/tealdeer/config.toml]
+  mangohud:
+    files: [~/.config/MangoHud/MangoHud.conf]
+  zed:
+    files: [~/.config/zed/settings.json]
+  pacman:
+    files_linux: [~/.config/pacman]
+  rime:
+    files_linux: [~/.local/share/fcitx5/rime/default.custom.yaml]
+  rustfmt:
+    pre_setup: [cp "$BACKUP_DIR/rustfmt.toml" .]
+  gradle:
+    files: [~/.gradle/init.gradle.kts]
+  cargo:
+    files: [~/.cargo/config.toml]
+  cloc:
+    files: [~/.config/cloc/options.txt]
+  termux:
+    files_linux: [~/.termux]
+    ignore: [shell, font.ttf]
   git:
     pre_setup:
       - |
@@ -52,25 +74,3 @@ apps:
         git config --global core.fsmonitor true
         git config --global core.untrackedCache true
     files: [~/.config/git]
-  tealdeer:
-    files: [~/.config/tealdeer/config.toml]
-    files_macos: [~/Library/Application Support/tealdeer/config.toml]
-  mangohud:
-    files: [~/.config/MangoHud/MangoHud.conf]
-  zed:
-    files: [~/.config/zed/settings.json]
-  pacman:
-    files_linux: [~/.config/pacman]
-  rime:
-    files_linux: [~/.local/share/fcitx5/rime/default.custom.yaml]
-  rustfmt:
-    files: [~/.config/rustfmt/rustfmt.toml]
-  gradle:
-    files: [~/.gradle/init.gradle.kts]
-  cargo:
-    files: [~/.cargo/config.toml]
-  cloc:
-    files: [~/.config/cloc/options.txt]
-  termux:
-    files_linux: [~/.termux]
-    ignore: [shell, font.ttf]
