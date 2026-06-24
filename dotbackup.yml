@@ -1,6 +1,6 @@
 backup_dir: ~/repos/jax/dotfiles
 apps:
-  dotbackup:
+  self:
     files_linux: [~/.config/dotbackup/dotbackup.yml]
     files_macos: [~/Library/Application Support/dotbackup/dotbackup.yml]
   alacritty:
