@@ -1,9 +1,13 @@
 return {
 	"folke/which-key.nvim",
 	event = "VeryLazy",
-	init = function()
-		vim.o.timeout = true
-		vim.o.timeoutlen = 300
-		require("which-key").setup()
-	end,
+	keys = {
+		{
+			"<leader>?",
+			function()
+				require("which-key").show()
+				end,
+			desc = "Buffer Keymaps (which-key)",
+		},
+	},
 }
