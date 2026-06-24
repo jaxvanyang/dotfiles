@@ -6,7 +6,7 @@ return {
 			"<leader>?",
 			function()
 				require("which-key").show()
-				end,
+			end,
 			desc = "Buffer Keymaps (which-key)",
 		},
 	},
