@@ -16,7 +16,7 @@ opt.smartindent = true
 
 opt.autoread = true
 opt.clipboard = "unnamedplus" -- sync with system clipboard
-opt.colorcolumn = "80,88" -- line width ruler
+opt.colorcolumn = "80,100" -- line width ruler
 opt.completeopt = "menu,menuone,noselect" -- completion menu
 opt.cursorline = true -- highlight current line
 opt.formatoptions = "tcqjronlm" -- better automatic formatting
